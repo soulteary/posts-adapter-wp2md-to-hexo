@@ -1,6 +1,6 @@
 {
   "name": "posts-adapter-wp2md-to-hexo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "adapter for hexo use wp2md.",
   "main": "convert.js",
   "scripts": {

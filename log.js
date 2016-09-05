@@ -85,6 +85,7 @@ function echo() {
 module.exports = function(moduleName) {
   return {
     log: echo.bind(null, 'log', moduleName),
+    info: echo.bind(null, 'info', moduleName),
     warn: echo.bind(null, 'warn', moduleName),
     error: echo.bind(null, 'error', moduleName)
   };
