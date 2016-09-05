@@ -1,0 +1,24 @@
+{
+  "name": "posts-adapter-wp2md-to-hexo",
+  "version": "0.0.1",
+  "description": "adapter for hexo use wp2md.",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulteary/posts-adapter-wp2md-to-hexo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soulteary/posts-adapter-wp2md-to-hexo/issues"
+  },
+  "homepage": "https://github.com/soulteary/posts-adapter-wp2md-to-hexo#readme",
+  "dependencies": {
+    "moment": "^2.14.1",
+    "story-fs": "0.0.10",
+    "story-utils": "0.0.8"
+  }
+}
